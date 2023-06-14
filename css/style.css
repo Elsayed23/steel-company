@@ -690,6 +690,7 @@ header .container ul li a:hover {
     justify-content: space-between;
     color: #ffffff;
     align-items: center;
+    position: relative;
 }
 
 .footer .container .left-con h2 {
@@ -725,7 +726,11 @@ header .container ul li a:hover {
 .footer .container .left-con .links a:last-child i:hover {
     color: #1DA1F2;
 }
-
+.footer .container .center {
+    position: absolute;
+    left: 50%;
+    translate: -50% 0;
+}
 .footer .container .center .top {
     margin-bottom: 10px;
 }
